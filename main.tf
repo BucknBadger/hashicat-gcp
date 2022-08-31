@@ -94,6 +94,7 @@ resource "null_resource" "configure-cat-app" {
     }
   }
 
+
   provisioner "remote-exec" {
     inline = [
       "sudo apt -y update",
